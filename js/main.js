@@ -65,7 +65,7 @@ $(function(){
          
          let currentFocus;
  
-         inp.addEventListener("input", showAutocompleteList);
+
          inp.addEventListener("click", showAutocompleteList);
 
          function addActive(x) {

@@ -54,7 +54,7 @@ body * {
     font-family: "Visby CF light", Arial, sans-serif;
     color: #3E3E3E;
     box-sizing: border-box;
-
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 #header, #main, #footer {
@@ -99,7 +99,6 @@ body * {
 }
 #drawer-menu span {
     display: none;
-    z-index: 500;
 }
 .drawer-menu {
     height: 60px;
@@ -133,6 +132,8 @@ body * {
     background-position: calc(100vw - 35px) center;
     background-repeat: no-repeat;
     border: none;
+    cursor: pointer;
+
 
 }
 #select-languageautocomplete-list {
@@ -171,7 +172,7 @@ body * {
     margin-left: 20px;
     margin-top: 13px;
     position: fixed;
-    /* cursor: pointer; */
+    cursor: pointer;
     /* position: absolute;
     top: 37px;
     right: 20px; */
@@ -224,6 +225,8 @@ body * {
     display: flex;
     align-items: flex-end;
     margin-right: 5px;
+    cursor: pointer;
+
 }
 #login img {
     margin: 0 6px;
@@ -241,7 +244,7 @@ body * {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    cursor: pointer;
     border: none;
 }
 .wellcome-page {
@@ -797,6 +800,8 @@ body * {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+
 }
 .fb {
     margin: 0 10px;
@@ -975,15 +980,15 @@ body * {
         margin-right: 120px;
     }
     #drawer-menu {
-        z-index: 200;
+        z-index: 1000;
         width: 465px;
-        top: 100px;
+        top: 0;
         left: -465px;
-        height: calc(100vh - 100px);
-        }
+        height: 100vh;
+    }
     #menu-checkbox:checked ~ #drawer-menu {
-        left: 0;
-        top: 100px;
+        left: 0; 
+        top: 0;
     }
     #drawer-menu span {
         display: none;
@@ -992,17 +997,26 @@ body * {
         border-radius: 5px;
         background-color: #3E3E3E;
         position: absolute;
-        top: 30px;
-        left: 485px;
-        
+        top: 12px;
+        cursor: pointer;
+        z-index: 500;
+
 
     }
-    #drawer-menu label:first-child {
-        
+    #drawer-close {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 20px;
+        right: -40px;
+        cursor: pointer;
+        z-index: 500;
+
     }
     #menu-checkbox:checked ~ #drawer-menu span {
         display: block;
     }
+
     #drawer-menu span:nth-child(1) {
         transform: rotate(45deg);
     }
