@@ -1153,6 +1153,9 @@ body * {
     .memory-desc-block {
         display: flex;
         justify-content: center;
+        margin-left: 0;
+        padding-left: 15px;
+
 
     }
     .memory-img-1 {
