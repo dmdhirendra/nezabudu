@@ -9,7 +9,7 @@ $(function(){
             slidesToShow: 1,
             centerMode: false,
             variableWidth: true,
-            autoplay: true,
+            // autoplay: true,
             autoplaySpeed: 2000,
          });    
       } else if (window.screen.width < 1024) {
@@ -20,7 +20,7 @@ $(function(){
             slidesToShow: 1,
             centerMode: false,
             variableWidth: true,
-            autoplay: true,
+            // autoplay: true,
             autoplaySpeed: 2000,
          });
          $('.memory-desc-block.slide').slick({
@@ -30,7 +30,7 @@ $(function(){
             slidesToShow: 1,
             centerMode: false,
             variableWidth: true,
-            autoplay: true,
+            // autoplay: true,
             autoplaySpeed: 2000,
          });
 

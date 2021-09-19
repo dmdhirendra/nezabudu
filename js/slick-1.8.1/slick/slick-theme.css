@@ -77,7 +77,7 @@
     display: flex;
     line-height: 45px;
     justify-content: center;
-    left: 40px;
+    left: 30px;
 
     position: relative;
 }
@@ -121,7 +121,7 @@
 .slick-next:before
 {
     content: url('../../../img/arrow.svg');
-    left: -70px;
+    left: -76px;
 
 
 }
