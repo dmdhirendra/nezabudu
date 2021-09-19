@@ -412,8 +412,9 @@ body * {
 .profile-type-block {
     display: flex;
     overflow: hidden;
-    width: 100%;
-    padding-left: 15px;}
+    width: calc(100% + 15px);
+    margin-left: 15px;
+}
 .profile-type-block-2 {
 
 }
@@ -533,7 +534,8 @@ body * {
 .memory-desc-block {
     display: flex;
     overflow: hidden;
-    width: 100%;
+    width: calc(100% + 15px);
+    margin-left: 15px;
 }
 .memory-title-2 {
     padding: 0;
