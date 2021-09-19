@@ -1024,7 +1024,7 @@ body * {
     }
     #menu-checkbox:checked ~ #drawer-menu:before {
         content: "";
-        width: calc(100% + 500px);
+        width: calc(100vw + 500px);
         height: 100vh;
         left: 465px;
         top:0;
