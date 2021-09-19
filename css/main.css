@@ -129,7 +129,7 @@ body * {
     justify-content: space-between;
     padding-left: 15px;
     background: url(../img/menu-lang.svg) white;
-    background-position: calc(100vw - 35px) center;
+    background-position: calc(100% - 35px) center;
     background-repeat: no-repeat;
     border: none;
     cursor: pointer;
@@ -412,10 +412,8 @@ body * {
 .profile-type-block {
     display: flex;
     overflow: hidden;
-    /* overflow-x: scroll; */
-    width: 100vw;
-    padding: 0 15px;
-}
+    width: 100%;
+    padding-left: 15px;}
 .profile-type-block-2 {
 
 }
@@ -443,7 +441,7 @@ body * {
     display: flex;
     overflow: hidden;
     /* overflow-x: scroll; */
-    width: calc(100vw - 15px);
+    width: calc(100% + 15px);
     margin-left: 15px;
 }
 .famous-profile {
@@ -535,9 +533,7 @@ body * {
 .memory-desc-block {
     display: flex;
     overflow: hidden;
-    /* overflow-x: scroll; */
-    width: 100vw;
-    padding-left: 15px;
+    width: 100%;
 }
 .memory-title-2 {
     padding: 0;
@@ -1026,7 +1022,7 @@ body * {
     }
     #menu-checkbox:checked ~ #drawer-menu:before {
         content: "";
-        width: calc(100vw + 500px);
+        width: calc(100% + 500px);
         height: 100vh;
         left: 465px;
         top:0;
