@@ -880,8 +880,8 @@ body * {
     #search-profile {
         width: 530px;
         margin-bottom: 40px;
-        padding: 0 20px;
-    }
+        padding: 0 60px;
+        text-align: center;    }
     .profile-type-block {
         justify-content: space-between;
         width: 700px;
