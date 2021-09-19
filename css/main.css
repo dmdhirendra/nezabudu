@@ -99,6 +99,7 @@ body * {
 }
 #drawer-menu span {
     display: none;
+    z-index: 500;
 }
 .drawer-menu {
     height: 60px;
