@@ -66,6 +66,8 @@
 .slick-prev:before,
 .slick-next:before
 {
+    display: none;
+
     font-size: 20px;
 
     color: #3E3E3E;
@@ -74,7 +76,7 @@
     background: #FFFFFF;
     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.07);
     border-radius: 50px;
-    display: flex;
+
     line-height: 45px;
     justify-content: center;
     left: 30px;
@@ -134,14 +136,15 @@
 .slick-dotted.slick-slider
 {
     margin-bottom: 30px;
+    padding-bottom: 35px;
 }
 
 .slick-dots
 {
+    display: flex !important;
+    justify-content: center;
     position: absolute;
-    bottom: -25px;
-
-    display: block;
+    top: 365px;
 
     width: 100%;
     padding: 0;
@@ -150,7 +153,14 @@
     list-style: none;
 
     text-align: center;
+        top: 365px;
+
 }
+.profile-type-page .slick-dots {
+    top: 610px;
+
+}
+
 .slick-dots li
 {
     position: relative;

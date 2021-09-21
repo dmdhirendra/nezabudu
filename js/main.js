@@ -1,37 +1,48 @@
 $(function(){
    $(document).ready(function(){
+      let dots = true;
+      let speed = 1100;
+      let autoplay = true;
+      let autoplaySpeed = 2000;
+      let infinite = true;
+      let arrows = false;
+
+
       if (window.screen.width < 710) {
 
          $('.slide').slick({
-            dots: false,
-            infinite: true,
-            speed: 300,
+            arrows: arrows,
+            dots: dots,
+            infinite: infinite,
+            speed: speed,
             slidesToShow: 1,
             centerMode: false,
             variableWidth: true,
-            autoplay: true,
-            autoplaySpeed: 2000,
+            autoplay: autoplay,
+            autoplaySpeed: autoplaySpeed,
          });    
       } else if (window.screen.width < 1024) {
          $('.famous-profiles-block.slide').slick({
-            dots: false,
-            infinite: true,
-            speed: 300,
+            arrows: arrows,
+            dots: dots,
+            infinite: infinite,
+            speed: speed,
             slidesToShow: 1,
             centerMode: false,
             variableWidth: true,
-            autoplay: true,
-            autoplaySpeed: 2000,
+            autoplay: autoplay,
+            autoplaySpeed: autoplaySpeed,
          });
          $('.memory-desc-block.slide').slick({
-            dots: false,
-            infinite: true,
-            speed: 300,
+            arrows: arrows,
+            dots: dots,
+            infinite: infinite,
+            speed: speed,
             slidesToShow: 1,
             centerMode: false,
             variableWidth: true,
-            autoplay: true,
-            autoplaySpeed: 2000,
+            autoplay: autoplay,
+            autoplaySpeed: autoplaySpeed,
          });
 
       }
