@@ -2,16 +2,18 @@ $(function(){
    $(document).ready(function(){
       let dots = true;
       let speed = 1100;
-      let autoplay = true;
+      let autoplay = false;
       let autoplaySpeed = 2000;
       let infinite = true;
       let arrows = false;
+      let swipeToSlide = true;
 
 
       if (window.screen.width < 710) {
 
          $('.slide').slick({
-            arrows: arrows,
+            // arrows: arrows,
+            swipeToSlide: swipeToSlide,
             dots: dots,
             infinite: infinite,
             speed: speed,

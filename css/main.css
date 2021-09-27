@@ -552,7 +552,8 @@ a {text-decoration: none;}
     margin-bottom: 10px;
 }
 .memory-title-ps {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
     font-size: 20px;
 }
 .memory-block {
@@ -917,6 +918,9 @@ a {text-decoration: none;}
         display: flex;
         align-items: center;
         text-align: center;
+    }
+    .profile-title-1 {
+        margin-right: 0;
     }
     .profile-type-page .add-memory-button {
         width: 330px;
