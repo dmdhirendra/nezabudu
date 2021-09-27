@@ -7,6 +7,9 @@ $(function(){
       let infinite = true;
       let arrows = false;
       let swipeToSlide = true;
+      let swipe = true;
+      let touchThreshold = 3;
+      
 
 
       if (window.screen.width < 710) {
@@ -14,6 +17,8 @@ $(function(){
          $('.slide').slick({
             // arrows: arrows,
             swipeToSlide: swipeToSlide,
+            swipe: swipe,
+            touchThreshold: touchThreshold,
             dots: dots,
             infinite: infinite,
             speed: speed,
