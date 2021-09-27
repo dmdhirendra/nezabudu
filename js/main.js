@@ -9,14 +9,15 @@ $(function(){
       let swipeToSlide = true;
       let swipe = true;
       let touchThreshold = 3;
+      let slidesToScroll = 1;
       
 
 
       if (window.screen.width < 710) {
-
          $('.slide').slick({
             // arrows: arrows,
             swipeToSlide: swipeToSlide,
+            slidesToScroll: slidesToScroll,
             swipe: swipe,
             touchThreshold: touchThreshold,
             dots: dots,
@@ -29,19 +30,8 @@ $(function(){
             autoplaySpeed: autoplaySpeed,
          });    
       } else if (window.screen.width < 1024) {
-         $('.famous-profiles-block.slide').slick({
-            arrows: arrows,
-            dots: dots,
-            infinite: infinite,
-            speed: speed,
-            slidesToShow: 1,
-            centerMode: false,
-            variableWidth: true,
-            autoplay: autoplay,
-            autoplaySpeed: autoplaySpeed,
-         });
-         $('.memory-desc-block.slide').slick({
-            arrows: arrows,
+         $('.famous-profiles-block.slide', '.memory-desc-block.slide').slick({
+            // arrows: arrows,
             dots: dots,
             infinite: infinite,
             speed: speed,
