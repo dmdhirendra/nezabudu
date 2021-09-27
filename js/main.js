@@ -6,6 +6,7 @@ $(function(){
       let autoplaySpeed = 2000;
       let infinite = true;
       let arrows = false;
+
       let swipeToSlide = true;
       let swipe = true;
       let touchThreshold = 3;
@@ -20,6 +21,7 @@ $(function(){
             slidesToScroll: slidesToScroll,
             swipe: swipe,
             touchThreshold: touchThreshold,
+
             dots: dots,
             infinite: infinite,
             speed: speed,

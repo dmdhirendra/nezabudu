@@ -266,7 +266,7 @@ a {text-decoration: none;}
     font-size: 23px;
     line-height: 30px;
     flex-grow: 1;
-
+    padding-top: 15px;
 
 }
 .wellcome-page .add-memory-button {
@@ -402,6 +402,7 @@ a {text-decoration: none;}
     margin-right: auto;
     margin-left: 10px;
 }
+
 .profile-desc {
     font-family: "Montserrat light", Arial, sans-serif;
     font-style: italic;
@@ -410,7 +411,7 @@ a {text-decoration: none;}
     margin-top: 10px;
 }
 .profile-type-block {
-    display: flex;
+
     overflow: hidden;
     width: 100vw;
     padding-left: 15px;
@@ -443,7 +444,7 @@ a {text-decoration: none;}
     align-items: center;
 }
 .famous-profiles-block {
-    display: flex;
+
     overflow: hidden;
     /* overflow-x: scroll; */
     width: 100vw;
@@ -539,7 +540,7 @@ a {text-decoration: none;}
     padding: 0 40px;
 }
 .memory-desc-block {
-    display: flex;
+
     overflow: hidden;
     width: 100vw;
     padding-left: 15px;
@@ -1165,6 +1166,7 @@ a {text-decoration: none;}
         margin: 0 70px;
     } */
     .famous-profiles-block {
+        display: flex;
         padding-left: 0;
         justify-content: center;
 
