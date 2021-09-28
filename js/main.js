@@ -9,7 +9,7 @@ $(function(){
 
       let swipeToSlide = true;
       let swipe = true;
-      let touchThreshold = 1000;
+      let touchThreshold = 100;
       let slidesToScroll = 1;
       
 
