@@ -14,7 +14,7 @@ $(function(){
       let pauseOnHover = true;
       let swipeToSlide = false;
       let swipe = true;
-      let touchThreshold = 5;
+      let touchThreshold = 7;
       let slidesToScroll = 1;
       
 
