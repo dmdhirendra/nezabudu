@@ -9,7 +9,7 @@ $(function(){
 
 
       let mobileFirst = true;
-      let waitForAnimate = true;
+      let waitForAnimate = false;
       let pauseOnFocus = true;
       let pauseOnHover = true;
       let swipeToSlide = false;
