@@ -8,6 +8,7 @@ $(function(){
       let arrows = false;
 
 
+      let touchMove = true;
       let mobileFirst = true;
       let waitForAnimate = false;
       let pauseOnFocus = true;
@@ -22,6 +23,7 @@ $(function(){
       if (window.screen.width < 710) {
          $('.slide').slick({
             // arrows: arrows,
+            touchMove: touchMove,
             mobileFirst: mobileFirst,
             waitForAnimate: waitForAnimate,
             swipeToSlide: swipeToSlide,
@@ -43,6 +45,7 @@ $(function(){
       } else if (window.screen.width < 1024) {
          $('.famous-profiles-block.slide', '.memory-desc-block.slide').slick({
             // arrows: arrows,
+            touchMove: touchMove,
             mobileFirst: mobileFirst,
             waitForAnimate: waitForAnimate,
             swipeToSlide: swipeToSlide,
