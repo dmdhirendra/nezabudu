@@ -1,15 +1,15 @@
 $(function(){
    $(document).ready(function(){
       let dots = true;
-      let speed = 1100;
-      let autoplay = false;
+      let speed = 900;
+      let autoplay = true;
       let autoplaySpeed = 2000;
       let infinite = true;
       let arrows = false;
 
       let swipeToSlide = true;
       let swipe = true;
-      let touchThreshold = 3;
+      let touchThreshold = 9;
       let slidesToScroll = 1;
       
 
