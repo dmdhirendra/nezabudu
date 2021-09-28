@@ -1,15 +1,20 @@
 $(function(){
    $(document).ready(function(){
       let dots = true;
-      let speed = 900;
+      let speed = 1100;
       let autoplay = true;
       let autoplaySpeed = 2000;
       let infinite = true;
       let arrows = false;
 
-      let swipeToSlide = true;
+
+      let mobileFirst = true;
+      let waitForAnimate = true;
+      let pauseOnFocus = true;
+      let pauseOnHover = true;
+      let swipeToSlide = false;
       let swipe = true;
-      let touchThreshold = 100;
+      let touchThreshold = 5;
       let slidesToScroll = 1;
       
 
@@ -17,10 +22,14 @@ $(function(){
       if (window.screen.width < 710) {
          $('.slide').slick({
             // arrows: arrows,
+            mobileFirst: mobileFirst,
+            waitForAnimate: waitForAnimate,
             swipeToSlide: swipeToSlide,
             slidesToScroll: slidesToScroll,
             swipe: swipe,
             touchThreshold: touchThreshold,
+            pauseOnHover: pauseOnHover,
+            pauseOnFocus: pauseOnFocus,
 
             dots: dots,
             infinite: infinite,
@@ -34,6 +43,15 @@ $(function(){
       } else if (window.screen.width < 1024) {
          $('.famous-profiles-block.slide', '.memory-desc-block.slide').slick({
             // arrows: arrows,
+            mobileFirst: mobileFirst,
+            waitForAnimate: waitForAnimate,
+            swipeToSlide: swipeToSlide,
+            slidesToScroll: slidesToScroll,
+            swipe: swipe,
+            touchThreshold: touchThreshold,
+            pauseOnHover: pauseOnHover,
+            pauseOnFocus: pauseOnFocus,
+
             dots: dots,
             infinite: infinite,
             speed: speed,
