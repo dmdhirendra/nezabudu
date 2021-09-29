@@ -687,12 +687,14 @@ a {text-decoration: none;}
 .memory-block-3-wrap {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background: #c2d9b861;
     border-radius: 5px;
     padding: 0 15px;
+    min-height: 290px;
 }
 .memory-img-3 {
-    margin: 65px 0 70px;
+    margin-top: 70px;
     font-family: "Montserrat regular", Arial, sans-serif;
     font-weight: 600;
     font-size: 17px;
