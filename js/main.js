@@ -12,7 +12,7 @@ $(function(){
 
         // });
       let dots = true;
-      let speed = 10000;
+      let speed = 1000;
       let autoplay = false;
       let autoplaySpeed = 2000;
       let infinite = true;
@@ -41,8 +41,8 @@ $(function(){
             slidesToScroll: slidesToScroll,
             swipe: swipe,
             touchThreshold: touchThreshold,
-            pauseOnHover: pauseOnHover,
-            pauseOnFocus: pauseOnFocus,
+            // pauseOnHover: pauseOnHover,
+            // pauseOnFocus: pauseOnFocus,
 
             dots: dots,
             infinite: infinite,
@@ -62,8 +62,8 @@ $(function(){
             slidesToScroll: slidesToScroll,
             swipe: swipe,
             touchThreshold: touchThreshold,
-            pauseOnHover: pauseOnHover,
-            pauseOnFocus: pauseOnFocus,
+            // pauseOnHover: pauseOnHover,
+            // pauseOnFocus: pauseOnFocus,
 
             dots: dots,
             infinite: infinite,
