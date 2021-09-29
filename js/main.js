@@ -12,16 +12,16 @@ $(function(){
 
         // });
       let dots = true;
-      let speed = 800;
+      let speed = 700;
       let autoplay = false;
       let autoplaySpeed = 3000;
       let infinite = true;
       let arrows = false;
 
 
-      let touchMove = true;
+      let touchMove = false;
       let mobileFirst = true;
-      let waitForAnimate = false;
+      let waitForAnimate = true;
     //   let pauseOnFocus = true;
     //   let pauseOnHover = true;
       let swipeToSlide = true;
