@@ -12,14 +12,14 @@ $(function(){
 
         // });
       let dots = true;
-      let speed = 1000;
+      let speed = 800;
       let autoplay = false;
       let autoplaySpeed = 3000;
       let infinite = true;
       let arrows = false;
 
 
-      let touchMove = false;
+      let touchMove = true;
       let mobileFirst = true;
       let waitForAnimate = false;
     //   let pauseOnFocus = true;
