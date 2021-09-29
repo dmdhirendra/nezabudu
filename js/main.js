@@ -160,7 +160,7 @@ $(function(){
              this.parentNode.appendChild(a);
              for (i = 0; i < arr.length; i++) {
                          b = document.createElement("DIV");
-                         b.innerHTML = "<string>" + arr[i] + "</string>";
+                         b.innerHTML = '<string class="autocomplete-value">' + arr[i] + "</string>";
                          b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
                          b.addEventListener("click", function(e) {
                              inp.value = this.getElementsByTagName("input")[0].value;

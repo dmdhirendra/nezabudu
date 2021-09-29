@@ -802,6 +802,10 @@ a {text-decoration: none;}
     height: 299px;
     overflow-y: scroll;
 }
+#volunteer-workautocomplete-list .autocomplete-value {
+    color: rgba(62, 62, 62, 0.8);
+    font-family: "Montserrat regular", Arial, sans-serif;
+}
 #volunteer-workautocomplete-list div {
     color: rgba(62, 62, 62);
     height: fit-content;
