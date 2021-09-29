@@ -21,7 +21,7 @@ $(function(){
 
       let touchMove = false;
       let mobileFirst = true;
-      let waitForAnimate = true;
+      let waitForAnimate = false;
     //   let pauseOnFocus = true;
     //   let pauseOnHover = true;
       let swipeToSlide = true;
