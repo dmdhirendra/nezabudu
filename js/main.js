@@ -13,7 +13,7 @@ $(function(){
         // });
       let dots = true;
       let speed = 700;
-      let autoplay = false;
+      let autoplay = true;
       let autoplaySpeed = 3000;
       let infinite = true;
       let arrows = false;
@@ -21,9 +21,9 @@ $(function(){
 
       let touchMove = false;
       let mobileFirst = true;
-      let waitForAnimate = false;
-    //   let pauseOnFocus = true;
-    //   let pauseOnHover = true;
+      let waitForAnimate = true;
+      let pauseOnFocus = true;
+      let pauseOnHover = true;
       let swipeToSlide = true;
       let swipe = true;
       let touchThreshold = 7;
@@ -41,8 +41,8 @@ $(function(){
             slidesToScroll: slidesToScroll,
             swipe: swipe,
             touchThreshold: touchThreshold,
-            // pauseOnHover: pauseOnHover,
-            // pauseOnFocus: pauseOnFocus,
+            pauseOnHover: pauseOnHover,
+            pauseOnFocus: pauseOnFocus,
 
             dots: dots,
             infinite: infinite,
@@ -62,8 +62,8 @@ $(function(){
             slidesToScroll: slidesToScroll,
             swipe: swipe,
             touchThreshold: touchThreshold,
-            // pauseOnHover: pauseOnHover,
-            // pauseOnFocus: pauseOnFocus,
+            pauseOnHover: pauseOnHover,
+            pauseOnFocus: pauseOnFocus,
 
             dots: dots,
             infinite: infinite,
