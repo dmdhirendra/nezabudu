@@ -13,7 +13,7 @@ $(function(){
         // });
       let dots = true;
       let speed = 700;
-      let autoplay = true;
+      let autoplay = false;
       let autoplaySpeed = 3000;
       let infinite = true;
       let arrows = false;
