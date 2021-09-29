@@ -54,8 +54,30 @@ $(function(){
             autoplaySpeed: autoplaySpeed,
          });    
       } else if (window.screen.width < 1024) {
-         $('.famous-profiles-block.slide', '.memory-desc-block.slide').slick({
+         $('.famous-profiles-block.slide').slick({
             // arrows: arrows,
+            touchMove: touchMove,
+            mobileFirst: mobileFirst,
+            waitForAnimate: waitForAnimate,
+            swipeToSlide: swipeToSlide,
+            slidesToScroll: slidesToScroll,
+            swipe: swipe,
+            touchThreshold: touchThreshold,
+            pauseOnHover: pauseOnHover,
+            pauseOnFocus: pauseOnFocus,
+
+            dots: dots,
+            infinite: infinite,
+            speed: speed,
+            slidesToShow: 1,
+            centerMode: false,
+            variableWidth: true,
+            autoplay: autoplay,
+            autoplaySpeed: autoplaySpeed,
+         });
+         $('.memory-desc-block').slick({
+            // arrows: arrows,
+            touchMove: touchMove,
             mobileFirst: mobileFirst,
             waitForAnimate: waitForAnimate,
             swipeToSlide: swipeToSlide,

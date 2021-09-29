@@ -144,7 +144,7 @@
     display: flex !important;
     justify-content: center;
     position: absolute;
-    top: 385px;
+    top: 365px;
 
     width: 100%;
     padding: 0;
@@ -153,9 +153,11 @@
     list-style: none;
 
     text-align: center;
-    top: 365px;
     left: 0px;
 
+}
+.memory-page .slick-dots {
+    top: 385px;
 }
 .profile-type-page .slick-dots {
     top: 610px;
