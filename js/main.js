@@ -1,8 +1,19 @@
 $(function(){
    $(document).ready(function(){
+
+        // const swiper = new Swiper('.swiper', {
+        //     loop: true,
+        //     pagination: '.swiper-pagination',
+        //     slidesPerView: 1,
+        //     paginationClickable: true,
+        //     spaceBetween: 30,
+        //     observer: true ,
+        //     observeParents: true,
+
+        // });
       let dots = true;
-      let speed = 1100;
-      let autoplay = true;
+      let speed = 5000;
+      let autoplay = false;
       let autoplaySpeed = 2000;
       let infinite = true;
       let arrows = false;

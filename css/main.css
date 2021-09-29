@@ -444,7 +444,7 @@ a {text-decoration: none;}
     align-items: center;
 }
 .famous-profiles-block {
-
+    display: flex;
     overflow: hidden;
     /* overflow-x: scroll; */
     width: 100vw;
