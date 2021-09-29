@@ -12,19 +12,19 @@ $(function(){
 
         // });
       let dots = true;
-      let speed = 10;
+      let speed = 1000;
       let autoplay = false;
       let autoplaySpeed = 2000;
       let infinite = true;
       let arrows = false;
 
 
-      let touchMove = true;
+      let touchMove = false;
       let mobileFirst = true;
       let waitForAnimate = false;
-      let pauseOnFocus = true;
-      let pauseOnHover = true;
-      let swipeToSlide = false;
+    //   let pauseOnFocus = true;
+    //   let pauseOnHover = true;
+      let swipeToSlide = true;
       let swipe = true;
       let touchThreshold = 7;
       let slidesToScroll = 1;
@@ -34,6 +34,7 @@ $(function(){
       if (window.screen.width < 710) {
          $('.slide').slick({
             // arrows: arrows,
+            touchMove: touchMove,
             mobileFirst: mobileFirst,
             waitForAnimate: waitForAnimate,
             swipeToSlide: swipeToSlide,
