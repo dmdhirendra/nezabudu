@@ -12,21 +12,21 @@ $(function(){
 
         // });
       let dots = true;
-      let speed = 700;
+      let speed = 400;
       let autoplay = false;
       let autoplaySpeed = 3000;
       let infinite = true;
       let arrows = false;
 
 
-      let touchMove = false;
+      let touchMove = true;
       let mobileFirst = true;
       let waitForAnimate = true;
       let pauseOnFocus = true;
       let pauseOnHover = true;
       let swipeToSlide = true;
       let swipe = true;
-      let touchThreshold = 9;
+      let touchThreshold = 15;
       let slidesToScroll = 1;
       
 
