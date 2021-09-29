@@ -575,6 +575,8 @@ a {text-decoration: none;}
     align-items: center;
     justify-content: space-between;
     min-height: 355px;
+    padding-bottom: 20px;
+
 }
 
 .memory-block-2 {
@@ -583,7 +585,6 @@ a {text-decoration: none;}
 }
 .memory-block-3 {
     margin-right: 30px;
-    padding-bottom: 20px;
 }
 .memory-img-1 {
     display: flex;
@@ -665,6 +666,10 @@ a {text-decoration: none;}
     color: #407528;
     margin-bottom: 20px;
 }
+.memory-block a {
+    /* margin-bottom: 20px; */
+
+}
 .memory-button-2 {
     width: 260px;
     padding: 0 10px;
@@ -696,7 +701,7 @@ a {text-decoration: none;}
     font-family: "Montserrat regular", Arial, sans-serif;
     font-weight: 600;
     font-size: 15px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     width: 260px;
     padding: 0 10px;
 
