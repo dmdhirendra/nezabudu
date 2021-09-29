@@ -12,7 +12,7 @@ $(function(){
 
         // });
       let dots = true;
-      let speed = 1000;
+      let speed = 10000;
       let autoplay = false;
       let autoplaySpeed = 2000;
       let infinite = true;
