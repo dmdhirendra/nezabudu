@@ -12,9 +12,9 @@ $(function(){
 
         // });
       let dots = true;
-      let speed = 1000;
+      let speed = 300;
       let autoplay = false;
-      let autoplaySpeed = 2000;
+      let autoplaySpeed = 3000;
       let infinite = true;
       let arrows = false;
 
