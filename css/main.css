@@ -889,7 +889,7 @@ a {text-decoration: none;}
 }
 @media screen and (min-width: 350px) {
     .wellcome-page {
-        background-position-y: bottom;
+        background-position-y: 60px;
 
     }
     .timeline-type img {
@@ -905,7 +905,7 @@ a {text-decoration: none;}
 }
 @media screen and (min-width: 420px) {
     .wellcome-page {
-        background-size: 130%;
+
         background-image: url(../img/wpage-big-big.png);
 
     }
@@ -917,7 +917,7 @@ a {text-decoration: none;}
         background-size: cover;
     }
     .wellcome-title {
-        padding-right: 300px;
+        padding-right: 230px;
     }
     .timeline-type-block {
         width: 680px;
